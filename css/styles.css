@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+section > * {
+  position: relative;
+  z-index: 2;
+}
+
+section:nth-of-type(1) {
+  background-image: url(/css/images/milky-way-984050_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+section:nth-of-type(2) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+section:nth-of-type(3) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/css/images/nature-2609647_1920.jpg);
+  color: white;
+}
+
+section:nth-of-type(4) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.myPic {
+  width: 15%;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+#title-h1 {
+  font-size: 4rem;
+  letter-spacing: 4px;
+}
+
+/* About section */
+
+.about-heading {
+  margin-bottom: 10%;
+}
+
+.feature-heading {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0% 5%;
+}
+
+.feature-p {
+  padding: 5%;
+}
+
+.coding {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 750px;
+  border-bottom-left-radius: 7px;
+  border-color: skyblue;
+  border-style: double;
+}
+
+/* Skill Section */
+
+.feature-heading {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.stacks {
+  border-radius: 50%;
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+.feature-p {
+  padding: 5%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Portfolio Section */
+
+.portfolio-heading {
+  margin-bottom: 10%;
+}
+
+.card-pic {
+  width: 80%;
+}
+
+.p-btn {
+  margin-top: 20%;
+}
