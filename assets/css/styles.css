@@ -91,7 +91,7 @@ section:nth-of-type(3) {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/Users/Anthonydavis/gt-bootcamp/homework/week-02/assets/images/nature-2609647_1920.jpg");
+  background-image: url("https://calendarmedia.blob.core.windows.net/assets/ca40df7a-6516-4493-8dca-d028ae074e35.jpg");
   color: white;
 }
 
@@ -151,7 +151,7 @@ section:nth-of-type(5) {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/Users/Anthonydavis/gt-bootcamp/homework/week-02/assets/images/north-4756774_1920.jpg");
+  background-image: url("https://cdn.thenewstack.io/media/2020/01/a94902de-north-4756774_1920.jpg");
   color: white;
 }
 
