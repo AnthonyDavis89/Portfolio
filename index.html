@@ -9,15 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
     <div id="wrapper">
         <section>
 
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-dark" style="background: rgba(0,0,0,0.5);">
             <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -27,16 +26,16 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Skill</a>
+                    <a class="nav-link" href="#skills">Skill</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact-me">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -44,7 +43,7 @@
           </nav>
 
 
-          <img class="myPic" src="/css/images/PictureOfMe.png" alt="picture of me">
+          <img class="myPic" src="/assets/images/PictureOfMe.png" alt="picture of me">
           <div class="row">
             <div class="feature-box col-lg-12">
               <h1 id="title-h1">Anthony Davis</h1>
@@ -60,8 +59,11 @@
           
         </section>
 
-        <section>
-          <h1 class="about-heading">The jounery never ends</h1>
+        <!-- About Section -->
+
+        <section id="about">
+
+              <h1 class="about-heading">The journey never ends</h1>
     
           <div class="row">
             <div class="feature-box col-lg-4">
@@ -69,57 +71,67 @@
             </div>
             <div class="feature-box col-lg-6">
               <h2 class="feature-heading">Technologist</h2>
-              <p class = "feature-p">I have over 10 years of expertise IT expeirence from working at ad agencies and multinational firms. She has a Fine Arts degree from Ivory Art School.Lorem ipsum dolor sit amet, ius et liber ullamcorper. Eos ad ipsum paulo mollis, has option invenire repudiare et, legimus nostrum comprehensam nec et. Ut stet quidam utroque duo, ex vel petentium sententiae incorrupte. Qui te deserunt delicata, his ipsum homero ea, dolore salutandi mei et. Qui reprimique reprehendunt eu, eam consul prodesset ei. Ea maluisset vituperata mea, sale ipsum accumsan an mel, ad vix habeo facer discere.</p>
+              <p class = "feature-p">I have over 10 years of expertise IT expeirence. Ive worked for large compaines to small start-ups Throughout the years I've overseen and managed the development of complex IT applications with a significant focus on implementing solutions and improving application processing performance. Im constantly learning new techin </p>
             </div>
           </div>
         </section>
 
-        <section>
+        <!-- Skills Section -->
+
+        <section id="skills">
+          <h1 class="skills-heading" >A few of my skills</h1>
           <div class="row">
-            <div class="feature-title col-lg-12">
-              <h1>A few of my skills</h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="feature-box col-lg-4">
+            <div class="feature-box col-lg-4 col-md-4">
               <img class="stacks" src="https://media.giphy.com/media/3Fox4sRv6aRS9bCggt/giphy.gif" alt="">
               <h3 class="feature-heading">MERN Stack</h3>
-              <p class = "feature-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
             </div>
-            <div class="feature-box col-lg-4">
+            <div class="feature-box col-lg-4 col-md-4">
              <img class="stacks" src="https://media.giphy.com/media/3oKIPlCroSFHV8uoko/giphy.gif" alt="">
               <h3 class="feature-heading">MEAN  Stack</h3>
-              <p class = "feature-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
-            <div class="feature-box col-lg-4">
+            <div class="feature-box col-lg-4 col-md-4">
               <img class="stacks" src="https://media.giphy.com/media/2tTiCSfEEP5QS5TjGr/giphy.gif" alt="">
-              <h3 class="feature-heading">API's</h3>
-              <p class = "feature-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <h3 class="feature-heading">API's</h3>         
             </div>
           </div>
         </section>
 
-        <section>
+        <!-- Portfolio Section -->
+
+        <section id="portfolio">
 
        <h1 class="portfolio-heading">Portfolio</h1>
 
        <div class="card mb-3" style="max-width: 840px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img class="card-pic" src="/css/images/port.jpeg" alt="...">
+            <a href="https://anthonydavis89.github.io/homework-w1/"><img class="card-pic" src="/assets/images/port.jpeg" alt="Horiseon"></a>
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Horiseon Project</h5>
               <p class="card-text">Need your code cleaned up without interfering with the design of your website? I can help!</p>
               <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
-              <div class="d-grid gap-2 col-6 mx-auto">
-                <button class=" p-btn btn btn-primary" type="button">Click here</button>
-              </div>
             </div>
           </div>
         </div>
       </div>
+
+
+        </section>
+
+        <!-- Contact-me Section -->
+
+        <section id="contact-me">
+                      <h2 class="contact-heading">Contact Me</h2>
+                      <h3 class="contact-p">Want to work together? Click on the button below!</h3>
+                      <p class="contact-message">Feel free to send me an email or add me on LinkedIn. Lets network!</p>
+       
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <a  href="mailto:Tony82189@gmail.com" button class=" contact-btn btn btn-outline-secondary" type="button">E-mail</a>
+            <a  href="https://www.linkedin.com/in/anthony-davis-29344bb8/" button class=" contact-btn btn btn-outline-secondary" type="button">LinkedIn</a>
+          </div>
+          
         </section>
 
  

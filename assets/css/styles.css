@@ -33,32 +33,11 @@ section > * {
 }
 
 section:nth-of-type(1) {
-  background-image: url(/css/images/milky-way-984050_1920.jpg);
+  background-image: url(/assets/images/milky-way-984050_1920.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-}
-section:nth-of-type(2) {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: white;
-}
-
-section:nth-of-type(3) {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/css/images/nature-2609647_1920.jpg);
-  color: white;
-}
-
-section:nth-of-type(4) {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: white;
 }
 
 .myPic {
@@ -74,8 +53,16 @@ section:nth-of-type(4) {
 
 /* About section */
 
+section:nth-of-type(2) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
 .about-heading {
-  margin-bottom: 10%;
+  padding: 3%;
+  text-align: center;
 }
 
 .feature-heading {
@@ -100,6 +87,18 @@ section:nth-of-type(4) {
 
 /* Skill Section */
 
+section:nth-of-type(3) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/images/nature-2609647_1920.jpg);
+  color: white;
+}
+
+.skills-heading {
+  padding-top: 5%;
+}
+
 .feature-heading {
   font-family: "Montserrat-Bold";
   font-weight: bold;
@@ -123,6 +122,13 @@ section:nth-of-type(4) {
 
 /* Portfolio Section */
 
+section:nth-of-type(4) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
 .portfolio-heading {
   margin-bottom: 10%;
 }
@@ -133,4 +139,49 @@ section:nth-of-type(4) {
 
 .p-btn {
   margin-top: 20%;
+}
+
+.card-pic:hover {
+  transform: scale(1.5);
+}
+
+/* Contact Section */
+
+section:nth-of-type(5) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/images/north-4756774_1920.jpg);
+  color: white;
+}
+
+.contact-heading {
+  padding-bottom: 5%;
+}
+
+/* Media */
+
+@media (max-width: 1190px) {
+  .stacks {
+    width: 20%;
+  }
+  .test-s {
+    width: 10%;
+  }
+
+  .feature-title {
+    margin-top: 50%;
+  }
+
+  .coding {
+    display: none;
+  }
+
+  .feature-heading {
+    font-size: 1rem;
+  }
+
+  .feature-p {
+    font-size: 1rem;
+  }
 }
